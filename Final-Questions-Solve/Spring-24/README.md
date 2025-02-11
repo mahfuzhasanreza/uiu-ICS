@@ -1,4 +1,4 @@
-# Summer 2024 (Set 1)
+# Spring 2024 (Set 1)
 
 ## Answer to the Question 1
 ```c
