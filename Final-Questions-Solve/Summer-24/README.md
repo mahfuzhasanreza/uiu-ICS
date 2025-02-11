@@ -1,3 +1,5 @@
+# Summer 2024 (Set 1)
+
 ## Answer to the Question 1
 
 ![Image](https://github.com/user-attachments/assets/c3926221-ba85-4152-8b76-1963828da7d9)
@@ -106,6 +108,30 @@ int main(){
     return 0;
 }
 ```
+
+<br>
+
+# Summer 2024 (Set 2)  
+
+## Answer to the Question 1
+
+**Pseudocode for Calculating the Square of a Number:**  
+
+```plaintext
+START
+1. Declare a variable num
+2. Declare a variable square
+3. Read input and store in num
+4. Calculate square: square = num * num
+5. Display the square value
+END
+```
+
+**Flowchart Representation:**
+
+
+
+## Answer to the Question 2
 
 <br>
 
