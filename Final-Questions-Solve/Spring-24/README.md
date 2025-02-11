@@ -7,13 +7,10 @@
 
 int main() {
     float energy, mass, speed_of_light;
-
-    printf("Enter energy and mass: ");
     scanf("%f %f", &energy, &mass);
     
     speed_of_light = sqrt(energy / mass);
-
-    printf("Speed of light: %.3f\n", speed_of_light);
+    printf("%.3f\n", speed_of_light);
 
     return 0;
 }
@@ -21,6 +18,27 @@ int main() {
 
 
 ## Answer to the Question 2
+
+```c
+#include <stdio.h>
+
+int main() {
+    char choice;
+    float length, width;
+
+    scanf("%c %f %f", &choice, &length, &width);
+
+    if (choice == 'A') {
+        float area = length * width;
+        printf("The area of the rectangle is: %f\n", area);
+    } else if (choice == 'P') {
+        float perimeter = 2 * (length + width);
+        printf("The perimeter of the rectangle is: %f\n", perimeter);
+    }
+
+    return 0;
+}
+```
 
 <br>
 
