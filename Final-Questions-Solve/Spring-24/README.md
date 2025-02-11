@@ -40,6 +40,37 @@ int main() {
 }
 ```
 
+## Answer to the Question 3  
+
+```c
+#include <stdio.h>
+
+int main() {
+    int a, b, c, max;
+    scanf("%d %d %d", &a, &b, &c);
+
+    max = a;
+    if (b > max) {
+        max = b;
+    }
+    if (c > max) {
+        max = c;
+    }
+
+    if (max % 2 == 0 && max % 3 == 0) {
+        printf("Purple Number\n");
+    } else if (max % 2 == 0) {
+        printf("Red Number\n");
+    } else if (max % 3 == 0) {
+        printf("Blue Number\n");
+    } else {
+        printf("White Number\n");
+    }
+
+    return 0;
+}
+```
+
 <br>
 
 # _Author: [Mahfuz Hasan Reza](https://github.com/mahfuzhasanreza/)_
