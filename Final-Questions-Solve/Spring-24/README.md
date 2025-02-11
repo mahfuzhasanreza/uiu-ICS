@@ -71,6 +71,34 @@ int main() {
 }
 ```
 
+## Answer to the Question 4  
+
+```c
+#include <stdio.h>
+
+int main() {
+    int a, b, c;
+    int result1, result2, result3, max;
+
+    scanf("%d %d %d", &a, &b, &c);
+
+    result1 = a + b * c;
+    result2 = b + a * c;
+    result3 = c + a * b;
+
+    max = result1;
+    if (result2 > max) {
+        max = result2;
+    }
+    if (result3 > max) {
+        max = result3;
+    }
+    printf("Maximum value: %d\n", max);
+
+    return 0;
+}
+```
+
 <br>
 
 # _Author: [Mahfuz Hasan Reza](https://github.com/mahfuzhasanreza/)_
