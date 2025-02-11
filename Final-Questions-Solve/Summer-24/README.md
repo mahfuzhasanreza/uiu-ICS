@@ -1,10 +1,10 @@
-## Answer to the Question 1 (a)
+## Answer to the Question 1
 
 ![Image](https://github.com/user-attachments/assets/c3926221-ba85-4152-8b76-1963828da7d9)
 
-Click [here](https://github.com/user-attachments/files/18748051/LearnWithMahfuz-ICS-Summer24-1a.pdf) for download the pdf
+Click [here](https://github.com/user-attachments/files/18748317/LearnWithMahfuz-ICS-Summer24-answer1.pdf) for download the pdf
 
-## Answer to the Question 1 (b)
+## Answer to the Question 2
 
 Yes, there are errors in the code.  
 
@@ -30,6 +30,13 @@ int main() {
 
     return 0;
 }
+```
+## Answer to the Question 3 
+
+```
+Original amount: $195.00
+Discount applied: $19.50
+Final amount to be paid: $175.50
 ```
 
 
