@@ -99,6 +99,54 @@ int main() {
 }
 ```
 
+## Answer to the Question 5  
+
+```c
+#include <stdio.h>
+
+int main() {
+    int number, lastDigit;
+
+    scanf("%d", &number);
+    lastDigit = number % 10;
+
+    switch (lastDigit) {
+        case 0:
+            printf("0123456789");
+            break;
+        case 1:
+            printf("123456789");
+            break;
+        case 2:
+            printf("23456789");
+            break;
+        case 3:
+            printf("3456789");
+            break;
+        case 4:
+            printf("456789");
+            break;
+        case 5:
+            printf("56789");
+            break;
+        case 6:
+            printf("6789");
+            break;
+        case 7:
+            printf("789");
+            break;
+        case 8:
+            printf("89");
+            break;
+        case 9:
+            printf("9");
+            break;
+    }
+
+    return 0;
+}
+```
+
 <br>
 
 # _Author: [Mahfuz Hasan Reza](https://github.com/mahfuzhasanreza/)_
